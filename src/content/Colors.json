@@ -1,0 +1,17 @@
+{
+  "primary": "#49403B",
+  "secondary": "#D86D67",
+  "tertiary": "#B06B5C",
+  "success": "",
+  "danger": "#BB2124",
+  "warning": "",
+  "info": "",
+  "light": "#fff",
+  "dark": "#000",
+  "green": "#00ff5a",
+  "gray": "#d9dad7",
+  "grayDark": "#bebfbd",
+  "grayLight": "#f1f2f3",
+  "whatsapp": "#25d366",
+  "whatsappDark": "#25d366"
+}
