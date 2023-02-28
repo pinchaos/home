@@ -1,0 +1,18 @@
+{
+  "id": "footer",
+  "company": {
+    "googleMapsTitle": "Ubicación Google Maps",
+    "googleMapsSrc": "https://www.google.com/maps/place/PINCHAOS+PINCHOS+%26+BROCHETAS/@4.862895,-74.05284,15z/data=!4m2!3m1!1s0x0:0x7e358426ff91111e?sa=X&ved=2ahUKEwjV-buLh6j9AhV3SjABHZ_vCHIQ_BJ6BAhgEAg",
+    "name": "Pinchaos Pinchos & Brochetas",
+    "phone": "+573108603921",
+    "address": "Av. Pradilla # 4 -105, Chía, Cundinamarca"
+  },
+  "logo": {
+    "src": "./img/svg/logo.svg",
+    "href": "#header"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100063483583551",
+    "instagram": "https://www.instagram.com/pinchaos.pinchos.brochetas/"
+  }
+}

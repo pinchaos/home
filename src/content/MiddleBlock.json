@@ -1,0 +1,13 @@
+{
+  "id": "middle",
+  "title": "Pinchos marinados con cariño y especias únicas",
+  "content": {
+    "beforeSpan": "Nuestros pinchos están preparados con ingredientes de primera calidad y con mucho cariño ❤️. Te ofrecemos una selección de ",
+    "span": "carnes exquisitas",
+    "afterSpan": ", desde ternera hasta cerdo y pollo, marinadas con nuestras exclusivas mezclas de especias.👨🏻‍🍳"
+  },
+  "button": {
+    "text": "Ver menú",
+    "src": "https://raw.githubusercontent.com/Daparamo/public/main/pinchaos-1.png"
+  }
+}

@@ -1,50 +1,47 @@
-import { Row, Col } from "antd";
-import { Slide } from "react-awesome-reveal";
-import { Button } from "../../common/Button";
-import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
-import Colors from "../../content/Colors.json";
-import CompanyContent from "../../content/CompanyContent.json";
-
-interface MiddleBlockProps {
-  title: string;
-  content: string;
-  button: string;
-  id: string;
-}
-
-const MiddleBlock = ({ id, title, content, button }: MiddleBlockProps) => {
-  const goToUrl = (url: string) => {
-    window.open(url);
-  };
-
-  return (
-    <MiddleBlockSection>
-      <Slide direction="left">
-        <Row justify="center" align="middle" id={id}>
-          <ContentWrapper>
-            <Col lg={24} md={24} sm={24} xs={24}>
-              <h6>{title}</h6>
-              <Content>{content}</Content>
-              {button && (
-                <Button
-                  focusBorderColor={Colors.secondary}
-                  focusBackgroundColor={Colors.secondary}
-                  focusColor={Colors.light}
-                  background={Colors.primary}
-                  color={Colors.light}
-                  name="submit"
-                  onClick={() => goToUrl(CompanyContent.urlMenu)}
-                >
-                  {" "}
-                  {button}
-                </Button>
-              )}
-            </Col>
-          </ContentWrapper>
-        </Row>
-      </Slide>
-    </MiddleBlockSection>
-  );
+type Content = {
+  beforeSpan: string;
+  span: string;
+  afterSpan: string;
 };
+
+type Button = {
+  text: string;
+  src: string;
+};
+
+type Middle = {
+  id: string;
+  title: string;
+  content: Content;
+  button: Button;
+};
+
+function MiddleBlock({ id, title, content, button }: Middle) {
+  return (
+    <section id={id}>
+      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div className="mx-auto max-w-screen-sm text-center">
+          <h2 className="text-4xl tracking-wide font-bold text-primary mb-10">
+            {title}
+          </h2>
+          <p className="mb-6 font-normal text-gray-700 text-xl">
+            {content.beforeSpan}
+            <span className="font-bold text-primary">{content.span}</span>
+            {content.afterSpan}
+          </p>
+          <div className="flex justify-center mt-14">
+            <a
+              target="_blank"
+              className="px-10 py-3 shadow shadow-gray-500 bg-primary text-white font-medium text-sm hover:bg-secondary uppercase rounded"
+              href={button.src}
+            >
+              {button.text}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export default MiddleBlock;

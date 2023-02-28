@@ -1,0 +1,11 @@
+{
+  "id": "block2",
+  "direction": "rigth",
+  "title": "Salsas caseras 🤤 para nuestros deliciosos pinchos",
+  "content": {
+    "beforeSpan": "No te pierdas la oportunidad de probar nuestras ",
+    "span": "salsas caseras 🍅",
+    "afterSpan": "y acompañamientos que combinan a la perfección con nuestros pinchos."
+  },
+  "img": "./img/png/contentBlock2.png"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "block1",
+  "direction": "left",
+  "title": "Pinchos con sabor 👌 auténtico",
+  "content": {
+    "beforeSpan": "Nuestros pinchos están hechos con carnes 🐄 de primera, marinadas en nuestras exclusivas mezclas de especias y cocinadas a la perfección en ",
+    "span": "nuestra parrilla",
+    "afterSpan": ". Cada bocado te llevará a un mundo de sabores únicos y auténticos."
+  },
+  "img": "./img/png/contentBlock1.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "stats",
+  "title": "Precios Brochetas",
+  "items": {
+    "item1": {
+      "title": "Ternera 🐮",
+      "subtitle": "$6k"
+    },
+    "item2": {
+      "title": "Cerdo 🐷",
+      "subtitle": "$7k"
+    },
+    "item3": {
+      "title": "Pollo 🐔",
+      "subtitle": "$7k"
+    }
+  }
+}

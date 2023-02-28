@@ -1,0 +1,11 @@
+{
+  "id": "block3",
+  "direction": "left",
+  "title": "Disfruta 😋 nuestros pinchos donde quieras",
+  "content": {
+    "beforeSpan": "Ya sea que desees deleitarte con nuestros pinchos en nuestro acogedor restaurante 🍽️ o llevarlos contigo para disfrutarlos en la ",
+    "span": "comodidad de tu hogar",
+    "afterSpan": " 🏠, estamos seguros de que quedarás satisfecho con cada bocado."
+  },
+  "img": "./img/png/contentBlock3.png"
+}

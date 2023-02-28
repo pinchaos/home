@@ -1,31 +1,16 @@
 {
+  "id": "intro",
   "title": "Pinchos & Brochetas",
-  "text": "Empresa familiar dedicada a satisfacer las necesidades gastronómicas de las personas con nuestro productos pinchos y brochetas. 🙂",
-  "img": "intro.png",
-  "button": [
-    {
+  "content": "Empresa familiar dedicada a satisfacer las necesidades gastronómicas de las personas con nuestro productos pinchos y brochetas. 🙂",
+  "image": "./img/png/intro.png",
+  "buttons": {
+    "button1": {
       "title": "Ver más",
-      "color": "#fff",
-      "background": "primary",
-      "focusBorderColor": "secondary",
-      "focusBackgroundColor": "secondary",
-      "focusColor": "light",
-      "buttonType": {
-        "type": "button",
-        "goTo": "middleBlockContent1"
-      }
+      "src": "#middle"
     },
-    {
+    "button2": {
       "title": "Menú",
-      "color": "primary",
-      "background": "light",
-      "focusBorderColor": "secondary",
-      "focusBackgroundColor": "secondary",
-      "focusColor": "light",
-      "buttonType": {
-        "type": "url",
-        "goTo": "https://www.facebook.com/photo/?fbid=435003154862409&set=pb.100063483583551.-2207520000."
-      }
+      "src": "https://raw.githubusercontent.com/Daparamo/public/main/pinchaos-1.png"
     }
-  ]
+  }
 }
